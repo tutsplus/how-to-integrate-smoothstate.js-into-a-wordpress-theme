@@ -14,9 +14,7 @@
 		addBlacklistClass();
 
 		var settings = { 
-			debug: true,
 			anchors: 'a',
-			hrefRegex: window.location.host,
 			blacklist: '.wp-link',
 			onStart: {
 				duration: 280,
